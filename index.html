@@ -11,17 +11,16 @@
     <title>ShapeUp</title>
 </head>
 <body>
-
     <div class="menu">
   
     </div>
 
     <div class="logoimg">
-        <img src="img/logo.png", width="560px" height="200px">
+        <img src="img/logo.png", width="120%" height="180%">
     </div>
 
     <div class="maromba">
-        <img src="img/maromba.png", width="590px" height="570px">
+        <img src="img/maromba.png", width="236%" height="220%">
     </div> 
 
     <div class="nav">
@@ -36,16 +35,144 @@
     <div class="btnlogin">
         <button type="button"><img src="img/imglogin.png"><p>Login</p></button>
     </div>
+
     
     <div class="bio">
+        <div class="mao">
+            <img src="img/mao.png">
+        </div>
         <div class="espaco"></div>
         <h3>Supere seus limites e <br> alcance seus objetivos</h3>
-        <p>Cada dia é uma nova oportunidade para se superar e alcancar seus objetivos. Acredite em si mesmo e comece hoje meso sua jornada rumo a uma vida mais saudável e feliz!</p>
+        <p>Cada dia é uma nova oportunidade para se superar e alcancar seus objetivos. 
+            Acredite em si mesmo e comece hoje meso sua jornada rumo a uma vida mais saudável e feliz!</p>
+        <div class="supere">
+                <img src="img/levanta.png" id="levanta">
+                <p id="treine">Treine todos os dias com professores qualificados</p>
+        </div>
+        <div class="luta">
+            <img src="img/tiro.png" id="luta">
+            <p id="lute">Aulas de luta presenciais, com professores qualificados</p>
+        </div>
+
+        <div class="danca">
+            <img src="img/danca.png" id="danca">
+            <p id="dance">Aulas de dança presenciais, com professores qualificados</p>
+        </div>
+
     </div>
 
-    <div class="mao">
-        <img src="img/mao.png">
+    <div class="planos">
+        <h2 id="titulo">Nossos Planos</h2>
+        <div class="quad1">
+            <h2>Plano básico</h2>
+            <h3>Sem  Fidelidade </h3>
+            <P>∙Área de musculação e<br> 
+                ∙aeróbicos<br>
+                ∙Treinos Online <br>
+                ∙Plano vip para um amigo <br>
+                de 30 dias
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$99,90/mês</h1>
+            <h4>01</h4>
+        </div>
+        <div class="quad2">
+            <h2>Plano Aulas</h2>
+            <h3>Sem  Fidelidade</h3>
+            <P>∙Aulas presenciais:<br>
+                ∙Muay Thai<br>
+                ∙Judô<br>
+                ∙Karatê<br>
+                ∙Dança<br>
+                ∙Pilates <br> 
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$104,90/mês</h1>
+            <h4>02</h4>
+        </div>
+        <div class="quad3">
+            <h2>Plano Black</h2>
+            <h3>12 Meses de Fidelidade</h3>
+            <P>∙Acesso à + 250 academias ao 
+                redor do Brasil<br>
+                ∙Acesso total da academia<br>
+                ∙Plano Básico + Aulas<br>
+                ∙Instrutor presente para auxiliar<br>
+                ∙Treino personalizado<br>
+              </P>
+            <h5>Por apenas</h5>
+            <h1>R$149,90/mês</h1>
+            <h4>03</h4>
+        </div>
     </div>
+
+
+    <div class="imc">
+    <main>
+        <h2>Calcule seu IMC</h2>
+        <p>O cálculo do IMC (Índice de Massa Corporal) é uma medida que relaciona o peso e a altura 
+            de uma pessoa para avaliar se ela está dentro do peso considerado saudável.</p>
+        <div class="calculadora">
+            <div class="divAltura">
+                <label for="altura" id="lblaltura">Altura (M)</label><br>
+                <input type="number" id="altura"/>
+            </div>
+            <div class="divPeso">
+              <label for="peso" id="lblaltura">Peso (KG)</label><br>
+              <input type="number" id="peso" />
+            </div><br>
+        </div>
+        <br>
+            <div class="divCalc">
+              <button onclick="calcIMC()" id="calculo">Calcular</button>
+            </div>
+    <span id="resultado"></span>
+    </main>
+    <script src="script.js"></script>
+
+    <div class="tabela">
+        <img src="img/tabela.png">
+    </div>
+
+    </div>
+
+    <div class="nossos">
+        <h2>
+          <center> Nossos Profissionais </center>
+        </h2>
+    
+
+    
+<div class="professores">
+
+    <div class="professor1">
+        <img src="img/pedro.png">
+    
+        <h3>Pedro Pascal</h3>
+        <p>Especialista em treinamento de força, com uma ampla experiência em musculação e levantamento de peso</p>
+    </div>
+
+    <div class="professor2">
+                <img src="img/janaina.png">
+        <h3>Janaina Jessica</h3>
+        <p>Especialista em Pilates, que ajuda seus alunos a melhorar a postura, a flexibilidade e o equilíbrio.</p>
+    </div>
+
+    <div class="professor3">
+        <img src="img/carla.png">
+        <h3>Carla Peres</h3>
+        <p>Especialista em treinamento funcional, com vasta experiência em ajudar seus alunos a melhorar sua força.</p>
+    </div>
+
+    <div class="professor4">
+        <img src="img/roger.png">
+        <h3>Roger Junior</h3>
+        <p>Treinador de corrida experiente, que ajuda seus alunos a melhorar sua técnica de corrida e resistência</p>
+    </div>
+
+</div>
+
+</div>
 
 </body>
 </html>

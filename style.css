@@ -9,33 +9,48 @@ body{
 
 .menu{
     background-image: linear-gradient(to right,#224B71, #255989);
-    width: 1472px;
-    height: 473px;
-    margin-left: 8%;
-    border-radius: 30px 80px;
-    margin-top: -120px;
+    width: 1230px;
+    height: 353px;
+    margin-left: 100px;
+    margin-top: -55px;    
+	border-radius: 30px 80px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logoimg{
-    width: 100px;
-    height: 100px;
-    margin-top: -330px;
-    margin-left: 130px;
-    background: 0;
+
+    position: absolute;
+    width: 310px;
+    height: 80px;
+    left: 110px;
+    top: 27px;
+    
 }
 
 .maromba{
-    width: 250px;
-    height: 250px;
-    margin-top: -124px;
-    margin-left: 1010px;
-    background: 0;
+    position: absolute;
+    width: 249px;
+    height: 206px;
+    left: 760px;
+    top: 0px;
+    
+}
+
+.mao img{
+    position: absolute;
+    width: 292px;
+    height: 120px;
+    left: 910px;
+    top: -15px;
 }
 
 .nav{
-    margin-top: -200px;
-    margin-left: 500px;
+    position: absolute;
+    width: 712px;
+    height: 42px;
+    left: 360px;
+    top: 56px;
+    
     float:left;
 }
 
@@ -45,57 +60,639 @@ body{
     font-family: "Poppins";
     margin-left: 60px;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     position:relative;
 }
 
 .btnlogin button{
-    background-color: #ffffff;
     font-family: "Poppins";
     border: none;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
+    position: absolute;
+    width: 129px;
+    height: 36px;
+    left: 230px;
+    top: 190px;
+    background: #FFFFFF;
+    border-radius: 28px;
     float:left;
     padding: 0.5em 1.5em;
     font-weight: bold;
-    margin-left: 350px;
     color: #224B71;
 }
 
 .btnlogin img{
-    margin-left: -100px;
+    margin-left: -80px;
     margin-top: -3px;
 }
 
 .btnlogin p{
     margin-top: -28px;
+    font-weight: bolder;
+    margin-left: 8px;
 }
 
 .bio{
+    position: absolute;
     width: 100%;
-    height: 300px;
-    position:relative;
-    background-color: #E5E5E5;
-    margin-top: 180px;
+    height: 215px;
+    left: 0px;
+    top: 349px;
     font-family: "Poppins";
-    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    background: #D9D9D9;
+    box-shadow: 2px 7px 10px 5px rgba(0, 0, 0, 0.25);
 }
 
-.espaco{
-    width: 100%;
-    height: 30px;
-    margin-top: 10px;
-}
 
 .bio h3{
     margin-left: 8%;
-    font-size: 30px;
+    font-size: 25px;
     color: #224B71;
+    margin-top: 20px;
 }
 
 .bio p{
     margin-left: 8%;
     margin-top: 10px;
     max-width: 400px;
+    font-size: 13px;
 }
+
+.bio #levanta{
+    position: absolute;
+    width: 65px;
+    height: 70px;
+    left: 560px;
+    top: 30px;
+}
+
+.bio #treine{
+    position: absolute;
+    width: 159px;
+    height: 62px;
+    left: 410px;
+    top: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #232020;
+}
+
+.bio #lute{
+    position: absolute;
+    width: 150px;
+    height: 62px;
+    left: 580px;
+    top: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #232020;
+}
+
+.bio #luta{
+    position: absolute;
+    width: 65px;
+    height: 70px;
+    left: 740px;
+    top: 30px;
+}
+
+.bio #dance{
+    position: absolute;
+    width: 170px;
+    height: 62px;
+    left: 720px;
+    top: 95px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #232020;
+}
+
+.bio #danca{
+    position: absolute;
+    width: 65px;
+    height: 70px;
+    left: 875px;
+    top: 30px;
+}
+
+.planos h2{
+    font-size: 25px;
+}
+
+
+.planos h3{
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+.planos p{
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.plnaos h5{
+    font-size: 17px;
+}
+
+.planos h1{
+    font-size: 30px;
+}
+
+.planos h4{
+    font-size: 25px;
+}
+
+
+
+
+#titulo{
+    position: absolute;
+    width: 369px;
+    height: 75px;
+    left: 560px;
+    top: 630px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 75px;
+    background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.quad1{
+position: absolute;
+width: 350px;
+height: 390px;
+left: 80px;
+top: 740px;
+background: rgba(129, 129, 129, 0.11);
+box-shadow: 3px 7px 15px -1px rgba(0, 0, 0, 0.2);
+border-radius: 37px;
+}
+
+.quad1 h2{
+position: absolute;
+width: 242px;
+height: 49px;
+left: 26px;
+top: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+
+line-height: 51px;
+background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.quad1 h3{
+    position: absolute;
+    width: 198px;
+    height: 33px;
+    left: 26px;
+    top: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 33px;
+    color: #014F87;
+}
+
+.quad1 p{
+position: absolute;
+width: 291px;
+height: 180px;
+left: 26px;
+top: 120px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+color: #3D3535;
+
+}
+
+.quad1 h5{
+    position: absolute;
+    width: 115px;
+    height:45px;
+    left: 26px;
+    top: 290px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #322F2F;
+}
+
+.quad1 h1{ 
+    position: absolute;
+    width: 242px;
+    height:45px;
+    left: 26px;
+    top: 315px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 54px;
+    background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-clip: text;
+
+}
+
+.quad1 h4{
+    position: absolute;
+    width: 52px;
+    height: 46px;
+    left: 300px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 57px;
+    background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    mix-blend-mode: normal;
+}
+
+.quad2 h2{
+    position: absolute;
+    width: 242px;
+    height: 49px;
+    left: 26px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 51px;
+    background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+    
+    .quad2 h3{
+        position: absolute;
+        width: 198px;
+        height: 33px;
+        left: 26px;
+        top: 80px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33px;
+        color: #014F87;
+    }
+    
+    .quad2 p{
+    position: absolute;
+    width: 291px;
+    height: 180px;
+    left: 26px;
+    top: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D3535;
+    
+    }
+    
+    .quad2 h5{
+        position: absolute;
+        width: 115px;
+        height: 30px;
+        left: 26px;
+        top: 295px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        color: #322F2F;
+    }
+    
+    .quad2 h1{ 
+        position: absolute;
+        width: 242px;
+        height: 45px;
+        left: 26px;
+        top: 315px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         background-clip: text;
+    
+    }
+    
+    .quad2 h4{
+        position: absolute;
+        width: 52px;
+        height: 46px;
+        left: 300px;
+        top: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        mix-blend-mode: normal;
+    }
+
+.quad2{
+position: absolute;
+width: 350px;
+height: 390px;
+left: 500px;
+top: 740px;
+background: rgba(129, 129, 129, 0.11);
+box-shadow: 3px 7px 15px -1px rgba(0, 0, 0, 0.25);
+border-radius: 37px;
+}
+
+.quad3{
+position: absolute;
+width: 350px;
+height: 390px;
+left: 924px;
+top: 740px;
+background: rgba(129, 129, 129, 0.11);
+box-shadow: 3px 7px 15px -1px rgba(0, 0, 0, 0.25);
+border-radius: 37px;
+}
+
+.quad3 h2{
+    position: absolute;
+    width: 242px;
+    height: 49px;
+    left: 26px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51px;
+    background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+    .quad3 h3{
+        position: absolute;
+        width: 238px;
+        height: 33px;
+        left: 26px;
+        top: 80px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33px;
+        color: #014F87;
+    }
+    
+    .quad3 p{
+    position: absolute;
+    width: 291px;
+    height: 180px;
+    left: 26px;
+    top: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D3535;
+    
+    }
+    
+    .quad3 h5{
+        position: absolute;
+        width: 115px;
+        height: 30px;
+        left: 26px;
+        top: 295px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        color: #322F2F;
+    }
+    
+    .quad3 h1{ 
+        position: absolute;
+        width: 242px;
+        height: 45px;
+        left: 26px;
+        top: 315px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+         background-clip: text;
+    
+    }
+    
+    .quad3 h4{
+        position: absolute;
+        width: 52px;
+        height: 46px;
+        left: 300px;
+        top: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57px;
+        background: linear-gradient(90.08deg, #0F365A 5.07%, #417EB6 97.09%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        mix-blend-mode: normal;
+    }
+
+    .imc{
+        margin-top: 970px;
+        margin-left: 80px;
+    }
+
+    .imc p{
+        font-family: "Poppins";
+        max-width: 500px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #lblaltura{
+        font-family: "Poppins";
+        color: #322F2F;
+        font-weight: bolder;
+
+    }
+    #altura{
+        font-family: "Poppins", sans-serif;
+        border-radius: 10px;
+        height: 30px;
+        margin-top: 10px;
+        width: 180px;
+        background-color: transparent;
+        border-color: #014F87;
+    }
+    #peso{
+        font-family: 'Poppins', sans-serif;
+        border-radius: 10px;
+        height: 30px;
+        margin-top: 10px;
+        width: 180px;
+        background-color: transparent;
+        border-color: #014F87;
+    }
+    #calculo{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        color: white;
+        background-image: linear-gradient(to right, #275A89 0%, #3D7BB4  100%);
+        height: 30px;
+        width: 130px;
+        border-radius: 21px;
+        font-size: 15px;
+        border: none;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 12);
+    }    
+    .calculadora{
+        display: flex;
+        flex-direction: row;
+    }
+    .divPeso{
+        margin-left: 20px;
+    }
+    h2{
+        color: #224B71;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .tabela img {
+        position: absolute;
+        width: 280px;
+        height: 267px;
+        left: 946px;
+        top: 1260px;
+    }
+
+    .nossos{
+        margin-left: -100px
+       
+    }
+
+    .nossos h2{
+        color:#224B71;
+        font-family: "Poppins";
+        font-weight: bold;
+        margin-top: 120px;
+    }
+    
+    .nossos h3{
+        color:#224B71;
+        font-family: "Poppins";
+        font-weight: bold;
+        text-align: center;
+        margin-left:15px;
+    }
+    
+    .nossos img{
+        margin-left: 50px;
+        width: 210px;
+    }
+    
+    .nossos p{    
+        font-family: "Poppins";
+        width: 50px;
+        font-size: 15px;
+    }
+    
+    
+    .professores{
+        display: flex;
+        margin-left: 160px;
+    }
+    
+    .professor1{
+        margin-top: 80px;    
+    }
+    
+    .professor1 p{
+        width: 250px;
+        text-align: justify;    
+        margin-left:25px;
+    }
+    
+    .professor2{
+        margin-top: 80px;
+        margin-left:20px;
+    }
+    
+    .professor2 p{
+        width: 250px;
+        text-align: justify;
+        margin-left:35px;
+    }
+    
+    .professor3{
+        margin-top: 80px;
+        margin-left:20px;
+    }
+    
+    .professor3 p{
+        width: 250px;
+        text-align: justify;
+        margin-left:35px;
+    }
+    
+    .professor4{
+        margin-top: 80px;    
+        margin-left:20px;
+    }
+    
+    .professor4 p{
+        width: 250px;
+        text-align: justify;
+        margin-left:35px;
+    }
+
